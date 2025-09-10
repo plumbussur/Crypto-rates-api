@@ -72,7 +72,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 1. Соберите образ:
 docker build -t crypto-rates-api .
 
-text
 
 2. Запустите контейнер:
 docker run -d -p 8000:8000 crypto-rates-api
